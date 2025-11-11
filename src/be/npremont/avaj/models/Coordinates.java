@@ -1,4 +1,4 @@
-package be.42npremont.avaj.models;
+package be.npremont.avaj.models;
 
 public class Coordinates
 {
@@ -13,17 +13,17 @@ public class Coordinates
 		this.height = height;
 	}
 
-	public getLongitude()
+	public int getLongitude()
 	{
 		return longitude;
 	}
 
-	public getLatitude()
+	public int getLatitude()
 	{
 		return latitude;
 	}
 	
-	public getHeight()
+	public int getHeight()
 	{
 		return height;
 	}

@@ -1,6 +1,6 @@
-package be.42npremont.avaj.interfaces;
+package be.npremont.avaj.interfaces;
 
-import be.42npremont.avaj.models;
+import be.npremont.avaj.models.WeatherTower;
 
 public interface Flyable
 {
