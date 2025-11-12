@@ -14,7 +14,7 @@ public class Simulator
 		}
 
 		String src_file = args[0];
-
+		System.out.println(src_file);
 		try
 		{
 			SimulationService simulation = new SimulationService();

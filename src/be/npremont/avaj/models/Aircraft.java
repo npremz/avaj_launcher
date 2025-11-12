@@ -6,17 +6,12 @@ public class Aircraft
 	protected String		name;
 	protected Coordinates	coor;
 
-	private int id_count = 0;
+	private static long id_count = 0;
 
 	protected Aircraft(String p_name, Coordinates p_coor)
 	{
-		this.id = getNextId();
+		this.id = id_count++;
 		this.name = p_name;
 		this.coor = p_coor;
-	}
-
-	private int getNextId()
-	{
-		return id_count++;
 	}
 }

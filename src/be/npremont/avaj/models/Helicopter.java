@@ -61,4 +61,10 @@ public class Helicopter extends Aircraft implements Flyable
 			w_tower.unregister(this);
 		}
 	}
+
+	@Override
+	public String toString()
+	{
+		return "Helicopter#" + name + "(" + id + ")";
+	}
 }

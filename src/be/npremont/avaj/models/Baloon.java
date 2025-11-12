@@ -61,4 +61,10 @@ public class Baloon extends Aircraft implements Flyable
 			w_tower.unregister(this);
 		}
 	}
+
+	@Override
+	public String toString()
+	{
+		return "Baloon#" + name + "(" + id + ")";
+	}
 }

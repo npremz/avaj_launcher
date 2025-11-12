@@ -61,4 +61,10 @@ public class JetPlane extends Aircraft implements Flyable
 			w_tower.unregister(this);
 		}
 	}
+
+	@Override
+	public String toString()
+	{
+		return "JetPlane#" + name + "(" + id + ")";
+	}
 }

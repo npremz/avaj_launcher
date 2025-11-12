@@ -13,7 +13,7 @@ public class AircraftFactory
 	private AircraftFactory()
 	{}
 
-	public AircraftFactory getInstance()
+	public static AircraftFactory getInstance()
 	{
 		if (instance == null)
 		{
@@ -23,6 +23,7 @@ public class AircraftFactory
 	}
 
 	public Flyable newAircraft(String p_type, String p_name, Coordinates p_coordinates)
+		throws IllegalArgumentException
 	{
 		switch (p_type) {
 			case "Baloon":
